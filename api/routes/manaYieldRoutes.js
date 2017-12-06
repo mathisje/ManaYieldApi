@@ -5,3 +5,4 @@ module.exports = function(app) {
   //Routes
   app.route('/calculate')
     .post(controller.calculate);
+}

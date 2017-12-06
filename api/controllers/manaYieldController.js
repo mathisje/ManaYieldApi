@@ -2,6 +2,10 @@
 
 //controller
 
-exports.calculate = function(param) {
+exports.calculate = function(req, res) {
 	//do stuff
+	console.log('do stuff');
+	console.log(req.body);
+	console.log(res.body);
+    //res.json(req);
 };
