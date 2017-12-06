@@ -1,0 +1,25 @@
+{
+  "name": "manayieldapi",
+  "version": "1.0.0",
+  "description": "RESTful api for ManaYield project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathisje/ManaYieldApi.git"
+  },
+  "author": "Jeffrey Mathis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathisje/ManaYieldApi/issues"
+  },
+  "homepage": "https://github.com/mathisje/ManaYieldApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  },
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
