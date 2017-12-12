@@ -7,5 +7,5 @@ exports.calculate = function(req, res) {
 	console.log('do stuff');
 	console.log(req.body);
 	console.log(res.body);
-    //res.json(req);
+    res.json(req.body);
 };
